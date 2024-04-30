@@ -1,5 +1,5 @@
 body {
-  background-image: url('pic05.jpg'); /* Replace 'path-to-your-image.jpg' with the actual path to your image */
+  background-image: url('pic03.jpg'); /* Replace 'path-to-your-image.jpg' with the actual path to your image */
   background-size: cover; /* This will scale the background image to be as large as possible so that the background area is completely covered by the image */
   background-repeat: no-repeat; /* This will prevent the background image from repeating */
     text-align: center; /* Centers content horizontally */

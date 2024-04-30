@@ -1,0 +1,40 @@
+body {
+  background-image: url('pic05.jpg'); /* Replace 'path-to-your-image.jpg' with the actual path to your image */
+  background-size: cover; /* This will scale the background image to be as large as possible so that the background area is completely covered by the image */
+  background-repeat: no-repeat; /* This will prevent the background image from repeating */
+    text-align: center; /* Centers content horizontally */
+    /*background-color: black; /* This will make the body black */
+  color: white; /* This will make the text white */
+  }
+  .container {
+    display: flex; /* Enables flexbox for vertical alignment */
+    flex-direction: column; /* Stacks elements vertically */
+    align-items: center; /* Centers elements horizontally within the container */
+    justify-content: center; /* Centers elements vertically within the container (optional for some browsers) */
+    min-height: 100vh; /* Sets minimum height for vertical centering */
+    margin: 0; /* Removes default margin from body */
+  }
+  h1 {
+  font-size: 6em; /* Adjust this value to make the h1 larger or smaller */
+  width: fit-content; /* This will make the width of h1 only as wide as its content */
+  margin: 0 auto; /* This will center the h1 */
+}
+h2 {
+  font-size: 2em; /* Adjust this value to make the h1 larger or smaller */
+  margin: 10px auto; /* This will reduce the margin above and below the h2 */
+}
+p {
+  border: 1px solid white; /* This will create a box around the paragraph */
+  padding: 10px; /* This will create some space around the text inside the box */
+  width: 50%; /* This will make the width of p only as wide as its content */
+  margin: 10px auto; /* This will center the p */}
+
+a {
+  color: #0077b5; /* This is the LinkedIn brand color */
+  text-decoration: none; /* This will remove the underline from the link */
+  font-size: 2em;
+}
+
+.linkedin a:hover {
+  text-decoration: underline; /* This will add an underline to the link when you hover over it */
+}
